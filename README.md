@@ -6,7 +6,6 @@
 # Description
 The aim of this project is about measuring the effectiveness of standard Information Retrieval systems. 
 The standard approach to information retrieval system evaluation revolves around the notion of relevant and non-relevant documents.
-
  
 
 Basic measures for information retrieval effectiveness that are used for document retrieval are Precision and Recall. So using information retrieval systems we define specific queries and then answer these specific queries.
@@ -18,7 +17,16 @@ Measure precision and recall values with the standard information retrieval syst
 ![image](https://user-images.githubusercontent.com/76015915/212551716-f7bb5c11-946d-4f16-a972-7c4be0b7dbe9.png)
 
  
+# 🚩How to start
+import request
 
+search = request.get(url="http://34.72.166.196/search",params={"query":"hello world"})
+
+search_title = request.get(url="http://34.72.166.196/search_title",params={"query":"hello world"})
+
+search_body = request.get(url="http://34.72.166.196/search_body",params={"query":"hello world"})
+
+search_anchor = request.get(url="http://34.72.166.196/search_anchor",params={"query":"hello world"})
 
 # 📚 Dadaset
 - Entire Wikipedia dump in a shared Google Storage bucket.
