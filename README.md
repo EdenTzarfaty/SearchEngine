@@ -24,7 +24,7 @@ Measure precision and recall values with the standard information retrieval syst
 - Page Rank
 - Page Views
 
-💡 Platforms
+ # Platforms: 💡
 - PyCharm in Python 3.7
 - Google Colaboratory
 - Google Cloud Platform
