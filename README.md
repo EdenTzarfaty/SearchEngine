@@ -1,10 +1,34 @@
-# SearchEngine
-Building a Search Engine for Wikipedia files
+# Wikipedia Search Engine
+![image](https://user-images.githubusercontent.com/76015915/212551748-daeb7d77-30ef-4af4-9ddf-a504e8c74468.png)
 
-As part of our bachelor degree in "Software and Information System Engineering" we took the "Introduction to Information Retrieval" course, This project is the final project in the course.
+ 
 
-In that course, we acquired knowledge regarding different indexing, retrieval, crawling, and "IR-Engines" evaluation techniques.
+# Description
+The aim of this project is about measuring the effectiveness of standard Information Retrieval systems. 
+The standard approach to information retrieval system evaluation revolves around the notion of relevant and non-relevant documents.
 
-In this project, we developed a search engine over Wikipedia data. We have built the Indexes for out engine using the Google Cloud Platform computing power.
+ 
 
-Retrival Methodes:
+Basic measures for information retrieval effectiveness that are used for document retrieval are Precision and Recall. So using information retrieval systems we define specific queries and then answer these specific queries.
+
+Measure precision and recall values with the standard information retrieval systems. For these experiments we use Wikipedia corpus that’s hold over 6 million of wiki pages.
+
+ 
+
+![image](https://user-images.githubusercontent.com/76015915/212551716-f7bb5c11-946d-4f16-a972-7c4be0b7dbe9.png)
+
+# Ranking methods:
+- Cosine Similarity using TF-IDF - on the body of articles.
+- Binary ranking using VSM - on the title and anchor text of articles.
+- BM25 - calculating the score of each part in the articles and them merge the results.
+- Page Rank
+- Page Views
+
+💡 Platforms
+- PyCharm in Python 3.7
+- Google Colaboratory
+- Google Cloud Platform
+- VM in Compute Engine
+
+# Engine's domain:
+35.226.44.201:8080
