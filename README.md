@@ -28,7 +28,7 @@ search_body = request.get(url="http://34.72.166.196/search_body",params={"query"
 
 search_anchor = request.get(url="http://34.72.166.196/search_anchor",params={"query":"hello world"})
 
-# 📚 Dadaset
+# 📚 Dataset
 - Entire Wikipedia dump in a shared Google Storage bucket.
 - Pageviews for articles.
 - Queries and a ranked list of up to 100 relevant results for them.
